@@ -1,0 +1,18 @@
+.box {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-1{
+    border: 1px solid #000; /* Adicione estilos desejados */
+    padding: 10px; /* Adicione estilos desejados */
+    margin: 5px; /* Adicione estilos desejados */
+    background: #008905;
+    text-align: center;
+}
+
+/* background: #0fd400; */
+.box-1.active {
+    background: #0fd400;
+  }
+  
